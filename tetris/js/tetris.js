@@ -7,6 +7,7 @@ for (var h = 0; h < height; h++) {
         state[h][w] = 0;
     }
 }
+// TODO: Check the best practice for the locker if it is needed
 state.locked = false;
 
 var shape1 = [
