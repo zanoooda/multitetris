@@ -1,5 +1,10 @@
 var height = 20, width = 10;
 
+//
+height = prompt("height");
+width = prompt("width");
+//
+
 var state = new Array(height);
 for (var h = 0; h < height; h++) {
     state[h] = new Array(width);
